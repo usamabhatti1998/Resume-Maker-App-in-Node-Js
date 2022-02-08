@@ -1,0 +1,41 @@
+#educationDiv {
+    width: 100%;
+}
+
+#education1 {
+    width: 50%;
+    float: left;
+}
+
+#education2 {
+    width: 50%;
+    float: left;
+}
+
+#experienceDiv {
+    width: 100%;
+}
+
+#experience1 {
+    width: 50%;
+    float: left;
+}
+
+#exprience2 {
+    width: 50%;
+    float: left;
+}
+
+#certificationsDiv {
+    width: 100%;
+}
+
+#certificate1 {
+    width: 50%;
+    float: left;
+}
+
+#certificate2 {
+    width: 50%;
+    float: left;
+}

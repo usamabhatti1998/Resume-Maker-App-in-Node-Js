@@ -1,0 +1,382 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: royalblue;
+    text-align: center
+}
+
+#DownloadButton {
+    margin-left: 600px;
+}
+
+body {
+    background-image: url("/img/software.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#main {
+    width: 1200;
+    height: 800px;
+}
+
+#tagline {
+    margin-top: 50px;
+    background-color: white;
+    font-size: 50px;
+}
+
+#createNowButton {
+    margin-top: 350px;
+    margin-left: 550px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    background-color: #3d60c4;
+}
+
+#createNowButton:hover {
+    font-size: 35px;
+    color: white;
+    background-color: #3d60c4;
+    border: 4px solid white;
+}
+
+#loginForm {
+    background-color: white
+}
+
+#a4 {
+    width: 3508px;
+    height: 2480px;
+    background-color: black;
+    color: white
+}
+
+#loginFormDiv {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#registrationFormDiv {
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: white;
+    height: 500px;
+}
+
+#registerButton {
+    margin-left: 250px;
+}
+
+#registerButton:hover {
+    font-size: 20px;
+    border: 4px solid black;
+}
+
+#submitButton {
+    margin-left: 250px;
+}
+
+#forgotPasswordButton {
+    margin-left: 50px;
+}
+
+#personalDetails,
+#educationDetails,
+#workExperience,
+#certifications {
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 580px;
+    color: #3d60c4;
+    padding: 10px;
+}
+
+.insideContactSection {
+    width: 33%;
+    height: 100px;
+    float: left
+}
+
+.insideContactSectionOfEducation {
+    height: 100px;
+    float: left;
+    width: 33%
+}
+
+.contactInput {
+    margin-left: 10px;
+}
+
+#welcomePageMainDiv {
+    width: 100%;
+    background-color: white;
+    height: 1000px
+}
+
+#welcomePageImage {
+    width: 600px;
+    height: 600px;
+}
+
+.welcomeInner {
+    width: 50%;
+    float: left
+}
+
+.footerButton {
+    margin-left: 580px;
+    border-radius: 20px;
+    background-color: #3963b2;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.fotterButton:hover {
+    transition-duration: 0.4s;
+    background-color: white;
+    color: #3963b2;
+}
+
+#welcomeTagLine {
+    text-decoration: overline;
+    margin-top: 50px;
+}
+
+#welcomeH5 {
+    color: #3d60c4;
+    text-align: center;
+    line-height: 3;
+    font-size: 30px;
+}
+
+#createButton {
+    border-radius: 30%;
+    margin-left: 200px;
+}
+
+.DivTitle {
+    text-align: center
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+
+.fa-android {
+    background: #a4c639;
+    color: white;
+}
+
+.fa-dribbble {
+    background: #ea4c89;
+    color: white;
+}
+
+.fa-vimeo {
+    background: #45bbff;
+    color: white;
+}
+
+.fa-tumblr {
+    background: #2c4762;
+    color: white;
+}
+
+.fa-vine {
+    background: #00b489;
+    color: white;
+}
+
+.fa-foursquare {
+    background: #45bbff;
+    color: white;
+}
+
+.fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+}
+
+.fa-flickr {
+    background: #f40083;
+    color: white;
+}
+
+.fa-yahoo {
+    background: #430297;
+    color: white;
+}
+
+.fa-soundcloud {
+    background: #ff5500;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+.fa-rss {
+    background: #ff6600;
+    color: white;
+}
+
+
+/* Welcome Page Styling   */
+
+#welcomePageLoginButton {
+    padding: 30px;
+    height: 590px;
+    width: 70%;
+    float: left;
+}
+
+#loginHeading {
+    margin-top: 100px;
+}
+
+#welcomeLogin {
+    margin-top: 200px;
+    margin-left: 350px;
+    background-color: #4e539c;
+    color: white
+}
+
+#welcomeLogin:hover {
+    border: 4px solid black;
+    font-size: 20px;
+}
+
+#welcomePageSignUpButton {
+    color: white;
+    padding: 30px;
+    height: 590px;
+    width: 30%;
+    float: left;
+    background-color: #4e539c;
+}
+
+#signUpHeading {
+    color: white;
+    margin-top: 100px;
+}
+
+#welcomeSignUp {
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+#welcomeSignUp:hover {
+    border: 4px solid black;
+    font-size: 20px;
+}
+
+.welcomePageButton {
+    /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+/* Image of Choie Page*/
+
+#imgFresh,
+#imgExperienced {
+    height: 300px;
+    width: 300px;
+    ;
+}
+
+#fresh,
+#exp {
+    float: left;
+    padding: 50px;
+    margin-left: 200px;
+}
+
+#fgradheading {
+    margin-left: 80px;
+    color: #3d60c4;
+}
+
+#expheading {
+    margin-left: 80px;
+    color: #3d60c4;
+}
