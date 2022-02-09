@@ -10,7 +10,7 @@ const addRecord = require("./models/resume.js")
 const addRecordOfFresher = require("./models/resume-fresher.js")
 
 //allocate port
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 const static_path = path.join(__dirname, '../assets')
 app.use(express.static(static_path));
 
@@ -72,6 +72,9 @@ app.get('/finalresume', (req, res) => {
     res.render("cv")
 })
 
+app.get('/finalresumefresher', (req, res) => {
+    res.render("freshgradcv")
+})
 
 
 app.post('/register', async(req, res) => {
