@@ -91,7 +91,7 @@ app.post('/register', async(req, res) => {
 
             const registered = await register.save()
 
-            res.status(201).render("login")
+            res.status(201).render("category")
 
 
         } else {
