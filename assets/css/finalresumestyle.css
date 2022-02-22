@@ -1,3 +1,25 @@
+A {
+    text-decoration: none;
+}
+
+b {
+    text-decoration: none;
+}
+
+pre {
+    text-decoration: none;
+}
+
+#imgDiv {
+    width: 200px;
+    height: 250px;
+    border-radius: 40%;
+}
+
+#imageDiv {
+    margin-left: 550px;
+}
+
 #educationDiv {
     width: 100%;
 }

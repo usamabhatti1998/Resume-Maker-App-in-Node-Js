@@ -11,20 +11,22 @@
         </head>
         <body>
         
-
+<div id="imageDiv" >   <img id="imgDiv" src="img/dp.jpg" alt="">  </div>
 
         <h1 id="name"> {{ firstName}} {{lastName}}</h1>
 
 
         <pre><b>Phone</b> {{  phone}}               <b> Email</b>   {{ email }}       </pre>
-
+<h3>Social Profiles</h3>
+<pre>                          <a href="{{facebook}}" style="text-decoration:none"><b>Facebook</b></a>         <a href=" {{linkedin}}" style="text-decoration:none"><b> LinkedIn</b> </a>             <a href=" {{github}}" style="text-decoration:none"><b> GitHub</b> </a>
+</pre>  
         <hr>
         <h3>Technical Skills</h3>
         <p>{{  techSkills}}  </p>
 
         <hr>
         <h3>Soft Skills</h3>
-        <p>{{softSkills}}  </p>
+        <p>{{softSkills}}  </p> 
 
 
 
@@ -37,7 +39,7 @@
 
         <div id="education1">
 
-        <h5>F.Sc {{  degree1}}  </h5>
+        <h5>{{  degree1}}  </h5>
         <ul>
             <li> <b>Institution:</b> {{ institution1 }}  </li>
             <li> <b>CGPA/Grade:</b> {{  grade1}}  </li>
@@ -51,9 +53,9 @@
 
         <div id="education2"> 
 
-        <h5>BS CS  {{degree2}}</h5>
+        <h5>{{degree2}}</h5>
         <ul>
-            <li> <b>Institution:&nbsp;</b> UOL  {{institution2 }}</li>
+            <li> <b>Institution:&nbsp;</b>   {{institution2 }}</li>
             <li> <b>CGPA/Grade:</b>  {{  grade2}}</li>
             <li> <b>Batch:</b> {{ grade2}}  </li>
                 <li> <b>Specialization:</b> Python {{  AOS2}}</li>
@@ -73,7 +75,7 @@
                 <h5>  {{ organization1 }}</h5>
         <ul>
         <li> <b>Worked as:</b> {{ role1 }}</li>
-            <li> <b>From</b> J{{  jobstart1}}  <b>  To </b>  {{ jobend1 }}</li>
+            <li> <b>From</b> {{  jobstart1}}  <b>  To </b>  {{ jobend1 }}</li>
                 <li> <b>Job Type: </b> {{ jobtype1 }}</li>
                 <li><b>Details: </b>  {{ jobdetails1 }}</li>
         </ul>
@@ -86,7 +88,7 @@
         <h5>{{ organization2 }}</h5>
            <ul>
         <li> <b>Worked as:</b> {{ role2}}</li>
-            <li> <b>From</b> J{{  jobstart2}} <b> To  </b>  {{ jobend2 }}</li>
+            <li> <b>From</b> {{  jobstart2}} <b> To  </b>  {{ jobend2 }}</li>
                 <li> <b>Job Type: </b> {{ jobtype2 }}</li>
                 <li><b>Details: </b>  {{ jobdetails2 }}</li>
         </ul>
